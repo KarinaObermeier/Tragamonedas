@@ -5,7 +5,10 @@ import java.util.concurrent.ThreadLocalRandom;
 public class tambor {
    
 	 private int valor;
- 
+  
+	 public tambor() {
+		 girar();
+	 }
 	 public void girar() {
 			this.valor = ThreadLocalRandom.current().nextInt(-1,8);
 		}

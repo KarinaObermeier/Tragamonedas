@@ -14,9 +14,6 @@ public class tragamonedaTest {
 		boolean resultado = t.Gane();
 		
 		assertEquals(resultado,true);
-		
-				
-		
 	
 	}
 

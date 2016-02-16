@@ -1,7 +1,7 @@
 package ar.edu.unlam.tallerweb;
 
 public class tragamoneda{
-
+	
 private tambor tambor1,tambor2,tambor3;
 
 	public tragamoneda(){
@@ -27,6 +27,9 @@ private tambor tambor1,tambor2,tambor3;
     		System.out.print(tambor3.obtenerValor());
     	    return true;
     	}
+    	System.out.print(tambor1.obtenerValor());
+		System.out.print(tambor2.obtenerValor());
+		System.out.print(tambor3.obtenerValor());
 		return false;
     }
 }
